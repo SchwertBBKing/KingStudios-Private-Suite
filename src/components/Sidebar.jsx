@@ -34,7 +34,7 @@ export default function Sidebar({ username = "SchwertBBKing", studio = "KingStud
         </nav>
 
         <div className="mt-6 p-4 rounded card text-sm small-muted">
-          <div className="font-medium text-white">Premium Member</div>
+          <div className="font-medium text-white">Platinum Member</div>
           <div className="text-xs">Last login: {new Date().toLocaleDateString("en-US")}</div>
         </div>
       </div>

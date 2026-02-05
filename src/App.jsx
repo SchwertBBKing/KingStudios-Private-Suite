@@ -116,7 +116,7 @@ export default function App() {
 
   return (
     <div className="flex h-screen bg-richBlack text-white font-luxury">
-      <Sidebar username="SchwertBBKing" studio="KingStudios" />
+      <Sidebar username="Personal" studio="KingStudios" />
       <main className="flex-1 p-10 space-y-6">
         <Header
           balance={balance}
@@ -126,7 +126,7 @@ export default function App() {
           }}
           onSearch={setSearch}
           onExport={exportCSV}
-          username="SchwertBBKing"
+          username="Personal"
           studio="KingStudios"
           categories={categories}
           selectedCategory={categoryFilter}
